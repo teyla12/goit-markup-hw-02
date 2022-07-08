@@ -3,13 +3,12 @@
   --main-font: Roboto, sans-serif;
   --logo-font: Raleway, sans-serif;
 
-    /*text colors*/
+  /*text colors*/
   --main-txt-cl: #212121;
   --acent-txt-cl: #2196f3;
-  --description-txt-cl:#757575;
-  --btn-txt-cl:white;
+  --description-txt-cl: #757575;
+  --btn-txt-cl: white;
 
- 
   /*bg colors*/
   --dark-bg-color: #2f303a;
   --light-bg-color: #f5f4fa;
@@ -18,7 +17,7 @@
 
   /*base styles*/
 }
- 
+
 body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
@@ -34,25 +33,26 @@ body {
 }
 
 .btn {
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: calc(30 / 16);
-display: flex;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-cursor: pointer;
-background-color: #2196f3;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
 }
 
 .portfolio-btn {
-font-weight: 500;
-font-size: 16px;
-line-height: calc(26 / 16);
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--main-txt-cl);
-background-color: #F5F4FA 
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+  background-color: #f5f4fa;
 }
 
 .portfolio-btn:hover,
@@ -60,7 +60,7 @@ background-color: #F5F4FA
   color: white;
   background-color: var(--acent-txt-cl);
 }
-  
+
 /*reset styles*/
 .link {
   text-decoration: none;
@@ -68,10 +68,8 @@ background-color: #F5F4FA
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
-
-
 
 /**
   |============================
@@ -81,35 +79,34 @@ background-color: #F5F4FA
 /* logo colors*/
 
 .logo {
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .color-1 {
-  color: black
+  color: black;
 }
 
 .color-2 {
-  color:white
+  color: white;
 }
-
 
 .header-link,
 .header-email,
 .header-phone {
-font-weight: 500;
-font-size: 14px;
-line-height: calc(16 / 14);
-letter-spacing: 0.02em;
-color:var(--main-txt-cl);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--main-txt-cl);
 }
 
 .header-link-curent {
-  color:var(--acent-txt-cl)
+  color: var(--acent-txt-cl);
 }
 
 .header-link:hover,
@@ -120,7 +117,6 @@ color:var(--main-txt-cl);
 .heafer-phone:focus {
   color: var(--acent-txt-cl);
 }
-
 
 /**
   |============================
@@ -139,7 +135,7 @@ color:var(--main-txt-cl);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /**
@@ -149,21 +145,20 @@ color:var(--main-txt-cl);
 */
 
 .section-subtitle {
-font-weight: 700;
-font-size: 14px;
-line-height: calc(16/14);
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 
 .section-description {
-font-weight: 400;
-font-size: 14px;
-line-height: calc(24/14);
-letter-spacing: 0.03em;
-color: var(--description-txt-cl)
-
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--description-txt-cl);
 }
 
 /**
@@ -173,13 +168,12 @@ color: var(--description-txt-cl)
 */
 
 .section-title {
-font-weight: 700;
-font-size: 36px;
-line-height: calc(42/36);
-letter-spacing: 0.03em;
-color: var(--main-txt-cl)
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
 }
-
 
 /**
   |============================
@@ -188,29 +182,28 @@ color: var(--main-txt-cl)
 */
 
 .section-title {
-font-weight: 700;
-font-size: 36px;
-line-height:calc(42 / 36);
-letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
 }
 
 .team-member-name {
-font-weight: 500;
-font-size: 16px;
-line-height: calc(19 /16);
-text-align: center;
-letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-member-position {
-font-weight: 400;
-font-size: 16px;
-line-height:calc(19 /16);
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--description-txt-cl)
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--description-txt-cl);
 }
-
 
 /**
   |============================
@@ -218,8 +211,8 @@ color: var(--description-txt-cl)
   |============================
 */
 
-.footer{
-  background-color: var(--dark-bg-color) ;
+.footer {
+  background-color: var(--dark-bg-color);
 }
 
 .footer-address {
@@ -228,17 +221,17 @@ color: var(--description-txt-cl)
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-email,
 .footer-tel {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: calc(24 / 14);
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /**
@@ -248,17 +241,17 @@ color: rgba(255, 255, 255, 0.6);
 */
 
 .portfolio-img-title {
-font-weight: 700;
-font-size: 18px;
-line-height: calc(36 / 18);
-letter-spacing: 0.06em;
-color: var(--main-txt-cl)
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--main-txt-cl);
 }
 
 .porfolio-img-description {
-font-weight: 400;
-font-size: 16px;
-line-height:calc(30 / 16);
-letter-spacing: 0.03em;
-color: var(--description-txt-cl);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--description-txt-cl);
 }
