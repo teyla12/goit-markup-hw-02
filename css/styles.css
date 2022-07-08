@@ -95,9 +95,7 @@ body {
   color: white;
 }
 
-.header-link,
-.header-email,
-.header-phone {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -107,6 +105,15 @@ body {
 
 .header-link-curent {
   color: var(--acent-txt-cl);
+}
+
+.header-email,
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--description-txt-cl);
 }
 
 .header-link:hover,
